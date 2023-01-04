@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Formulario con tabla</title>
+</head>
+<body>
+
+    <div id="divData">
+
+        <form id="dataForm">
+
+            <div class="dataFields">
+                <label for="inName">NOMBRE</label>
+                <input type="text" name="inName" id="inNamerl">
+           
+                <label for="inSur1">PRIMER APELLIDO</label>
+                <input type="text" id="inSur1" name="inSur1">
+
+                <label for="inSur2">SEGUNDO APELLIDO</label>
+                <input type="text" id="inSur2" name="inSur2">
+            
+                <label for="inGrade">CURSO</label>
+                <input type="text" id="inGrade" name="inGrade">
+
+                <label for="inFoto">FOTO</label>
+                <input type="text" id="inFoto" name="inFoto">
+            </div>
+
+            <div class="dataFields">
+                <button id="sendData">SEND</button>
+            </div>
+
+        </form>
+    </div>
+
+    <div>
+        <table id="studentRecord">
+            <tr>
+                <th name="firstName" class="formHeader" id="nAl">NOMBRE</th>
+                <th name="surName1" class="formHeader" id="ape1Al">APELLIDO1</th>
+                <th name="surName2" class="formHeader" id="ape2Al">APELLIDO2</th>
+                <th name="grade" class="formHeader" id="cAl">CURSO</th>
+                <th name="look" class="formHeader" id="fotoAl">ANTROPOMORFISMO</th>
+            </tr>
+            
+            <tr>
+                <td class="formCells">Payo 1</td>
+                <td class="formCells">Suape</td>
+                <td class="formCells">Suotrape</td>
+                <td class="formCells">Sucurso</td>
+                <td class="formCells">Sumama</td>
+                
+            </tr>
+        </table>
+    </div>
+    
+<script src="index.js"></script>
+</body>
+</html>
