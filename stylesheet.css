@@ -1,9 +1,16 @@
-.formHeader {
+th {
     border: .0625rem solid rgb(0, 18, 0);
     text-align: center;
     width: 9.375rem;
     height: max-content;
     background-color: green;
+}
+
+td {
+    border: .0625rem solid green;
+    text-align: center;
+    width: 9.375rem;
+    height: max-content;
 }
 
 .dataFields {
@@ -18,10 +25,4 @@
     width: max-content;
 }
 
-td {
-    border: .0625rem solid green;
-    text-align: center;
-    width: 9.375rem;
-    height: max-content;
-}
 
