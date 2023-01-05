@@ -1,5 +1,4 @@
 let dataCollection = document.querySelector('#dataForm');
-let victim = document.getElementById('')
 
 dataCollection.addEventListener("submit", function(event){
     event.preventDefault();
@@ -32,7 +31,6 @@ dataCollection.addEventListener("submit", function(event){
     }
     
 } )
-
 
 
 
