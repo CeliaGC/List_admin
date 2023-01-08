@@ -32,9 +32,9 @@ dataCollection.addEventListener("submit", function(event){
 
     function draw(timePassed) {
     
-        launch.style.marginTop = timePassed / -1 + '%';
+        launch.style.marginTop = timePassed / -20 + '%';
         if (timePassed >= 300){
-            aver.removeChild(launch)
+            aver.removeChild(launch);
             aver.appendChild(dataCollection);
         
         }
