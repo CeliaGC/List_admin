@@ -3,9 +3,7 @@ let dataCollection = document.getElementById('dataForm');
 let aver = document.querySelector('body');
 let launch = document.createElement('img');
 
-
 aver.appendChild(dataCollection);
-
 
 launch.src = "Archivos/Rocketlaunch.png";
 launch.id = "rocketLaunch";
@@ -30,14 +28,13 @@ dataCollection.addEventListener("submit", function(event){
 
     function draw(timePassed) {
     
-        launch.style.marginTop = timePassed / -5 + '%';
+        launch.style.marginTop = timePassed / -2 + '%';
         if (timePassed >= 300){
             aver.removeChild(launch);
             aver.appendChild(dataCollection);
         
         }
     }
-
 
     studentFormData = new FormData(dataCollection);
     let studentTable = document.getElementById('studentRecord');
@@ -70,4 +67,5 @@ dataCollection.addEventListener("submit", function(event){
     }
 
 } )
+
 
