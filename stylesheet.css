@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-=======
 @font-face {
     font-family: 'camingocodebold';
     src: url('Archivos/web fonts/camingocode_bold_macroman/CamingoCode-Bold-webfont.eot');
@@ -162,15 +160,10 @@ table {
 }
 
 
->>>>>>> dev
 th {
     border: .0625rem solid rgb(0, 18, 0);
     text-align: center;
     width: 9.375rem;
-<<<<<<< HEAD
-    height: max-content;
-    background-color: green;
-=======
     height: 1.2rem;
     background-color: green;
     border-radius: .625rem;
@@ -181,17 +174,6 @@ td {
     border: .0625rem solid green;
     text-align: center;
     width: 9.375rem;
-<<<<<<< HEAD
-    height: max-content;
-}
-
-.dataFields {
-    display: flex ;
-    flex-direction: column;
-    width: 15%;
-    justify-content: space-between;
-    padding: .3125rem;
-=======
     height: 1.2rem;
     border-radius: .625rem;
 }
@@ -220,15 +202,13 @@ td {
     border-color: white;
     border-radius: 0.625rem;
     color: white;
->>>>>>> dev
+
 }
 
 #sendData {
     width: max-content;
 }
 
-<<<<<<< HEAD
-=======
 footer {
     height: 100%;
 }
@@ -427,6 +407,3 @@ h2 {
     
 }
   
-
->>>>>>> dev
-

@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-let dataCollection = document.querySelector('#dataForm');
-
-dataCollection.addEventListener("submit", function(event){
-    event.preventDefault();
-    let studentFormData = new FormData(dataCollection);
-=======
  
 let dataCollection = document.getElementById('dataForm');
 let aver = document.querySelector('body');
@@ -47,7 +40,6 @@ dataCollection.addEventListener("submit", function(event){
 
 
     studentFormData = new FormData(dataCollection);
->>>>>>> dev
     let studentTable = document.getElementById('studentRecord');
     let newStudent = studentTable.insertRow(2);
     let nameCell = newStudent.insertCell(0);
@@ -59,15 +51,6 @@ dataCollection.addEventListener("submit", function(event){
     sur2Cell.textContent = studentFormData.get('inSur2');
     let gradeCell = newStudent.insertCell(3);
     gradeCell.textContent = studentFormData.get('inGrade');
-<<<<<<< HEAD
-    let imgCell = newStudent.insertCell(4);
-    imgCell.textContent = studentFormData.get('inFoto');
-    let graveYard = newStudent.insertCell(5);
-    graveYard.id = "angelOfDeath";
-    let gonnaDie = document.createElement('button');
-    gonnaDie.textContent = "ELIMINAR";
-    gonnaDie.className = 'waitForIt';
-=======
     let graveYard = newStudent.insertCell(4);
     graveYard.id = "angelOfDeath";
     graveYard.style.border = "none";
@@ -77,8 +60,6 @@ dataCollection.addEventListener("submit", function(event){
     gonnaDie.id = "killBt";
     dataCollection.reset();
 
-
->>>>>>> dev
     let gonnaKill = document.querySelector('#angelOfDeath');
     gonnaKill.appendChild(gonnaDie);
 
@@ -87,50 +68,6 @@ dataCollection.addEventListener("submit", function(event){
     function erase(){
         gonnaDie.closest('tr').remove();
     }
-<<<<<<< HEAD
-    
-} )
-
-
-
-/*
-$('#table').on('click','.delete-row',function(){
-    $(this).closest('tr').remove();
-    // $(this) is the button
-    
-});
-let gonnaDie = document.querySelector('#waitForIt');
-gonnaDie.addEventListener("click", deleition());
-function deleition(){
-    gonnaDie.closest('tr').remove();
-}
-
-let gonnaDie = document.createElement('button');
-gonnaDie.addEventListener("click", deleition());
-function deleition(){
-gonnaDie.closest('tr').remove();
-}
-*/
-=======
 
 } )
 
-// resetLaunch();
-
-// function resetLaunch() {
-//     aver.removeChild(launch);
-//     aver.appendChild(dataCollection);
-    
-// }
-
-
-    // $(document).ready(function() {
-    //     $('#rocketLaunch')
-    //       .attr({
-    //         marginTop: "0%"
-    //       })
-    //       .animate({
-    //        marginTop: "-150"
-    //     }, 3000);
-    //   });
->>>>>>> dev
