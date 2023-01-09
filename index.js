@@ -26,19 +26,16 @@ dataCollection.addEventListener("submit", function(event){
     }
     draw(timePassed);
 
-   
-
     },20);
 
     function draw(timePassed) {
     
-        launch.style.marginTop = timePassed / -20 + '%';
+        launch.style.marginTop = timePassed / -5 + '%';
         if (timePassed >= 300){
             aver.removeChild(launch);
             aver.appendChild(dataCollection);
         
         }
-
     }
 
 
