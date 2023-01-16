@@ -28,7 +28,7 @@ dataCollection.addEventListener("submit", function(event){
 
     function draw(timePassed) {
     
-        launch.style.marginTop = timePassed / -2 + '%';
+        launch.style.marginTop = timePassed / -1 + '%';
         if (timePassed >= 300){
             aver.removeChild(launch);
             aver.appendChild(dataCollection);
